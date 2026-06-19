@@ -61,7 +61,10 @@ hr {
     transform: translateY(-2px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.4);
 }
+
 img {
+    max-width: 100%;
+    height: auto;
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
     margin: 20px 0;
@@ -106,4 +109,11 @@ h1 {
 
 .book.secondary {
     opacity: 0.9;
+}
+.book img {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
 }
