@@ -106,3 +106,37 @@ h1 {
 .button:hover {
     background-color: #d63c3c;
 }
+.book {
+    display: flex;
+    gap: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px;
+    border-radius: 12px;
+    margin: 30px 0;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Book cover image inside book blocks */
+.book img {
+    width: 160px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+/* Text inside book blocks */
+.book h3 {
+    margin-top: 0;
+    color: #ff7777;
+}
+
+/* FEATURED BOOK (Book 1) */
+.book.featured {
+    border: 1px solid #c49b3a;
+    transform: scale(1.02);
+}
+
+/* SECONDARY BOOK (Book 2) */
+.book.secondary {
+    opacity: 0.85;
+}
