@@ -75,8 +75,8 @@ h1 {
 }
 .hero {
     text-align: center;
-    padding: 80px 20px;
-    margin-bottom: 40px;
+    padding: 100px 20px;
+    margin-bottom: 70px;
 }
 
 .hero h1 {
@@ -128,4 +128,8 @@ h1 {
     height: auto;
     display: block;
     margin: 0 auto 20px auto;
+}
+.book {
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
