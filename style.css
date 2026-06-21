@@ -173,7 +173,7 @@ h1 {
 }
 .book.secondary {
     opacity: 0.9;
-    border: 2px solid #5c5c5c;
+    border: 2px solid #444;
 }
 .book div {
     flex: 1;
