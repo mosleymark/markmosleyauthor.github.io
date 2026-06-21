@@ -240,3 +240,6 @@ footer {
     border-top: 1px solid #444;
     color: #aaa;
 }
+nav a.active {
+    color: #c49b3a;
+}
