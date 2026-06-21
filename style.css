@@ -178,3 +178,30 @@ background:
 .book div {
     flex: 1;
 }
+.about {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+
+.author-photo {
+    width: 280px;
+    border-radius: 15px;
+    flex-shrink: 0;
+}
+
+.about-text {
+    flex: 1;
+}
+
+@media (max-width: 800px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .author-photo {
+        margin: auto;
+    }
+}
