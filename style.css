@@ -143,10 +143,9 @@ h1 {
 .book img {
     width: 220px;
     flex-shrink: 0;
-    max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto 20px auto;
+    margin: 0;
 }
 .book {
     margin-top: 60px;
@@ -171,4 +170,8 @@ h1 {
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.4);
     max-width: 100%;
+}
+.book.secondary {
+    opacity: 0.9;
+    border: 2px solid #5c5c5c;
 }
