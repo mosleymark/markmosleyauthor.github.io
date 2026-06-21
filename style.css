@@ -205,3 +205,31 @@ background:
         margin: auto;
     }
 }
+.reviews {
+    margin: 100px 0;
+}
+
+.reviews h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.review {
+    background: rgba(255,255,255,0.05);
+    border-left: 4px solid #c49b3a;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.review p {
+    font-size: 1.1rem;
+    font-style: italic;
+    margin-top: 0;
+}
+
+.review span {
+    color: #c49b3a;
+    font-weight: bold;
+}
